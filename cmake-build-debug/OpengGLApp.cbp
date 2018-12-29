@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpengGLApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpengGLApp">
+				<Option output="/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/OpengGLApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/scollon/CLionProjects/OpengGLApp/src/third_party/glad/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpengGLApp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpengGLApp/fast">
+				<Option output="/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/OpengGLApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/scollon/CLionProjects/OpengGLApp/src/third_party/glad/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpengGLApp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/scollon/CLionProjects/OpengGLApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/main.cpp">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/IScene.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/application/Application.cpp">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/application/Application.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/application/input_event_type.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/math/Vector2D.cpp">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/math/Vector2D.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/math/Vector3D.cpp">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/core/math/Vector3D.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/scene/BaseScene.cpp">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/scene/BaseScene.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/third_party/glad/src/glad.c">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/utils/logger.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/src/utils/types.h">
+			<Option target="OpengGLApp"/>
+		</Unit>
+		<Unit filename="/home/scollon/CLionProjects/OpengGLApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
